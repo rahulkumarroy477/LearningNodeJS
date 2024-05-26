@@ -1,0 +1,12 @@
+REST API - Json
+
+GET /movies  --> return html for browsers
+GET /api/movies  --> for mobiles or other
+GET /movie/id  --> get user with id
+
+
+POST /movie  -> create new user
+
+PATCH /movies/id  --> Edit the user with id
+
+DELETE /movies/id  --> Delete the user with id

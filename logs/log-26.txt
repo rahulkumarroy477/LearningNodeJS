@@ -1,0 +1,46 @@
+POST 1716723331461 --> /api/movies visited, {"name":"King Kong"} sent
+GET 1716723365256 --> /api/movies/3 visited, {"id":3,"name":"The Dark Knight"} received
+GET 1716723398224 --> /api/movies/103 visited, {"id":103,"name":"Hulk"} received
+GET 1716723410156 --> /movies visited
+POST 1716723456468 --> /api/movies visited, {"name":"Demon Slayer"} sent
+GET 1716731269975 --> /api/movies/1 visited, {"id":1,"name":"The Shawshank Redemption"} received
+PATCH 1716731423358 --> /api/movies/1 visited, {"name":"Demon Slayer"} successful
+GET 1716731423358 --> /api/movies/1 visited, {"id":1,"name":"The Shawshank Redemption"} received
+PATCH 1716731423358 --> /api/movies/1 visited, {"name":"Demon Slayer"} successful
+PATCH 1716731743718 --> /api/movies/1 visited, {"name":"Demon Slayer"} successful
+PATCH 1716731743718 --> /api/movies/1 visited, {"name":"Demon Slayer"} successful
+GET 1716731743718 --> /api/movies/1 visited, {"id":1,"name":"The Shawshank Redemption"} received
+GET 1716731743718 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+GET 1716731743718 --> /api/movies/0 visited, {} received
+GET 1716731743718 --> /api/movies/3 visited, {"id":3,"name":"The Dark Knight"} received
+GET 1716731743718 --> /api/movies/-1 visited, {} received
+PATCH 1716731743718 --> /api/movies/2 visited, {"name":"Demon Slayer"} successful
+PATCH 1716731965884 --> /api/movies/2 visited, {"name":"rahul"} successful
+GET 1716731965884 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+GET 1716732180135 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+PATCH 1716732180135 --> /api/movies/2 visited, {"name":"rahul"} successful
+PATCH 1716732236892 --> /api/movies/2 visited, {"name":"rahul"} successful
+GET 1716732702674 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+PATCH 1716732702674 --> /api/movies/2 visited, {"name":"rahul"} successful
+PATCH 1716732897106 --> /api/movies/2 visited, {"name":"rahul"} failed to updated, id does not exist
+PATCH 1716732897106 --> /api/movies/2 visited, {"name":"rahul"} failed to updated, id does not exist
+GET 1716732897106 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+PATCH 1716732897106 --> /api/movies/2 visited, {"name":"rahul"} failed to updated, id does not exist
+PATCH 1716733066493 --> /api/movies/2 visited, {"name":"rahul"} failed to updated, id does not exist
+GET 1716733066493 --> /api/movies/2 visited, {"id":2,"name":"The Godfather"} received
+PATCH 1716733202192 --> /api/movies/2 visited, {"name":"rahul"} successful
+GET 1716733202192 --> /api/movies/2 visited, {"id":2,"name":"rahul"} received
+GET 1716733202192 --> /api/movies/5 visited, {"id":5,"name":"The Lord of the Rings: The Return of the King"} received
+PATCH 1716733202192 --> /api/movies/5 visited, {"name":"rahul baba"} successful
+GET 1716733202192 --> /api/movies/5 visited, {"id":5,"name":"rahul baba"} received
+POST 1716733430524 --> /api/movies visited, {"name":"av"} sent
+DELETE 1716734381828 --> /api/movies/106 visited, "av" movie deleted successful
+DELETE 1716734476180 --> /api/movies/106 visited, "av" movie deleted successful
+GET 1716734476180 --> /api/movies/106 visited, {"id":106,"name":"av"} received
+GET 1716734476180 --> /api/movies/106 visited, {"id":106,"name":"av"} received
+GET 1716734669470 --> /api/movies/106 visited, {"id":106,"name":"av"} received
+DELETE 1716734707985 --> /api/movies/106 visited, "av" movie deleted successful
+DELETE 1716734785020 --> /api/movies/106 visited, "av" movie deleted successful
+GET 1716734879765 --> /api/movies/106 visited, {"id":106,"name":"av"} received
+DELETE 1716734879765 --> /api/movies/106 visited, "av" movie deleted successful
+DELETE 1716734971879 --> /api/movies/106 visited, "av" movie deleted successful
