@@ -44,3 +44,15 @@ DELETE 1716734785020 --> /api/movies/106 visited, "av" movie deleted successful
 GET 1716734879765 --> /api/movies/106 visited, {"id":106,"name":"av"} received
 DELETE 1716734879765 --> /api/movies/106 visited, "av" movie deleted successful
 DELETE 1716734971879 --> /api/movies/106 visited, "av" movie deleted successful
+GET 1716743018292 --> /api/movies/82 visited, {"id":82,"name":"Logan"} received
+GET 1716743098032 --> /api/movies visited
+GET 1716743109259 --> /movies visited
+POST 1716743169179 --> /api/movies visited, {"name":"av"} sent
+PATCH 1716743222519 --> /api/movies/101 visited, {"name":"avinash"} successful
+DELETE 1716743242279 --> /api/movies/101 visited, "avinash" movie deleted successfully
+PATCH 1716743457035 --> /api/movies/3 visited,[object Object] changed to {"name":"avinash"} successful
+GET 1716743552746 --> /api/movies/4 visited, {"id":4,"name":"Pulp Fiction"} received
+PATCH 1716743561260 --> /api/movies/4 visited,{"id":4,"name":"Pulp Fiction"} changed to {"name":"The Dark Knight"} successful
+GET 1716743643423 --> /api/movies/22 visited, {"id":22,"name":"The Pianist"} received
+GET 1716743656517 --> /api/movies/10 visited, {"id":10,"name":"Goodfellas"} received
+PATCH 1716743663053 --> /api/movies/10 visited,{"id":10,"name":"Goodfellas"} changed to {"id":10,"name":"The unknown"} successful

@@ -1,0 +1,14 @@
+GET 1716787064766 --> /api/movies/10 visited, {"id":10,"name":"The unknown"} received
+POST 1716787125921 --> /api/movies visited, {"name":"demon slayer training arc"} sent
+GET 1716787170567 --> /api/movies/101 visited, {"id":101,"name":"demon slayer training arc"} received
+PATCH 1716787197216 --> /api/movies/101 visited,{"id":101,"name":"demon slayer training arc"} changed to {"id":101,"name":"demon slayer training"} successful
+GET 1716794241357 --> /movies visited
+GET 1716794251710 --> /api/movies visited
+GET 1716794260788 --> /api/movies/98 visited, {"id":98,"name":"A Star Is Born"} received
+POST 1716794306801 --> /api/movies visited, {"name":"demon slayer training arc"} sent
+POST 1716794349637 --> /api/movies visited, {"name":"demon slayer training arc"} sent
+POST 1716794400049 --> /api/movies visited, {"name":"kagura"} sent
+DELETE 1716794414453 --> /api/movies/105 visited, failed to delete, id 105 does not exist
+POST 1716794556611 --> /api/movies/ visited, {"name":"konosuba"} sent
+DELETE 1716794576846 --> /api/movies/105 visited, "konosuba" movie deleted successfully
+DELETE 1716794585656 --> /api/movies/104 visited, "kagura" movie deleted successfully
